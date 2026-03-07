@@ -16,6 +16,9 @@ class BreanCkeckStream{
       ------
 	  //long count = Stream.of(4,6,2,5,7).peek(System.out::println).filter(x->x%2==0).count();
       ------
+	  //List<Integer> list = new ArrayList<>(List.of(1, 2, 3, 4));
+      //list.stream().filter(n -> n % 2 == 0).peek(n -> list.remove(n)).collect(Collectors.toList())//NPE 
+	  ------
 	  System.out.println(collect4);
   }
 }
