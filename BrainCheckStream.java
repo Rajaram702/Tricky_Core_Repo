@@ -21,6 +21,8 @@ class BreanCkeckStream{
 	  ------
 	  //List<Integer> list =new ArrayList<>(List.of(4,2));Stream<Integer> s = list.stream();list.add(14);s.forEach(System.out::print); 
       ------
+	  //Stream.of(4,6,2,5,5).reduce(1,(x,y)->x+y,(x,y)->x*y);
+	  ------
 	  System.out.println(collect4);
   }
 }
