@@ -19,6 +19,8 @@ class BreanCkeckStream{
 	  //List<Integer> list = new ArrayList<>(List.of(1, 2, 3, 4));
       //list.stream().filter(n -> n % 2 == 0).peek(n -> list.remove(n)).collect(Collectors.toList())//NPE 
 	  ------
+	  //List<Integer> list =new ArrayList<>(List.of(4,2));Stream<Integer> s = list.stream();list.add(14);s.forEach(System.out::print); 
+      ------
 	  System.out.println(collect4);
   }
 }
