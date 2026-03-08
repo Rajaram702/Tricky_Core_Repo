@@ -8,7 +8,7 @@ class BreanCkeckStream{
 	  ------
 	  //Map<Integer, Object> collect2 = Stream.of(5,3,5,2,5).collect(Collectors.toMap(x->x,x->null));//java.lang.NullPointerException
 	  ------
-	  //Map<Integer, Integer> collect3 = Stream.of(5,3,5,2,5).collect(Collectors.toMap(x->x,x->1,(x,y)->nu//{2=1, 3=1, 5=1}
+	  //Map<Integer, Integer> collect3 = Stream.of(5,3,5,2,5).collect(Collectors.toMap(x->x,x->1,(x,y)->null));//{2=1, 3=1, 5=1}
 	  ------
 	  //Map<Object, Long> collect = Stream.of(5,2).collect(Collectors.groupingBy(x->null,Collectors.counting()));//java.lang.NullPointerException
 	  ------
