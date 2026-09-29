@@ -23,9 +23,10 @@ class BreanCkeckStream{
          ------
 	  //Stream.of(4,6,2,5,5).reduce(1,(x,y)->x+y,(x,y)->x*y);
          ------
-          boolean result = Stream.<String>empty().allMatch(s -> s.length() <0); System.out.println(result); //true
-          boolean result2 = Stream.<String>empty().noneMatch(s -> s.length() >0);  System.out.println(result); //true
+         /* boolean result = Stream.<String>empty().allMatch(s -> s.length() <0); System.out.println(result); //true
+          boolean result2 = Stream.<String>empty().noneMatch(s -> s.length() >0);  System.out.println(result); //true*/
          ------
-	  System.out.println(collect4);
+	     List<Integer> list = new ArrayList<>(List.of(1, 2, 3, 4));
+	     list.stream().filter(n -> n % 2 == 0).peek(n -> list.remove(n)).collect(Collectors.toList());
   }
 }
